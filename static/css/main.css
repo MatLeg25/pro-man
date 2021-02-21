@@ -1,0 +1,169 @@
+#boards {
+    /*background-color: gray;*/
+}
+
+:root{
+    --border-radius: 3px;
+    --status-1: #590000;
+    --status-2: #594300;
+    --status-3: #525900;
+    --status-4: #085900;
+}
+
+body{
+    /*min-width: 620px;*/
+    /*background: #ddd url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/diagonal-noise.png);*/
+    background: url("/static/images/background1.png") center/cover no-repeat fixed;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+h1, .board-title, .board-column-title{
+    font-weight: 100;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 5px;
+    transform: scale(1.2, 1);
+}
+
+button{
+    background: #222;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 4px 10px;
+}
+
+.board-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section.board{
+    margin: 20px;
+    border: aliceblue;
+    background: #ffffff90;
+    border-radius: 3px;
+}
+
+.board-header{
+    height: 50px;
+    background: #fff;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.board-title{
+    margin: 13px;
+    display: inline-block;
+    font-size: 20px;
+}
+.board-title, .board-add, .board-toggle{
+    display: block;
+}
+
+.board-toggle{
+    float: right;
+    margin: 13px;
+}
+
+.board-columns{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.board-column{
+    padding: 10px;
+    flex: 1;
+}
+
+.board-column-content{
+    min-height: 49px;
+}
+
+.board-column-content:empty{
+    /*This only works if the tag is really empty and there is not even whitespace inside*/
+    border: 4px solid #cdcdcd;
+    margin-top: 4px;
+    border-radius: 10px;
+    background: #eee;
+}
+
+.board-column-title{
+    text-align: center;
+}
+
+.card{
+    position: relative;
+    background: #222;
+    color: #fff;
+    border-radius: var(--border-radius);
+    margin: 4px 0;
+    padding: 4px;
+}
+
+.add-modal {
+  position: fixed;
+  z-index: 100;
+  background: white;
+  border-radius: 10px;
+  width: 80%;
+  top: 30vh;
+  left: 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  display: block;
+      animation: fade-slide-in 0.3s ease-out forwards;
+}
+
+.add-modal .modal__title {
+  margin: 0;
+  padding: 1rem;
+  border-bottom: 1px solid #00329e;
+  background: #00329e;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.add-modal .modal__content {
+  padding: 1rem;
+}
+
+.add-modal .modal__actions {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#backdrop {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 10;
+  pointer-events: all;
+  display: block;
+}
+
+
+.dropZone {
+    opacity:0.7;
+    font-size: 75%;
+    font-family: SWItal;
+    color: slategrey;
+}
+
+.board-name {
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+
+.card-title:hover {
+    border:2px solid black;
+    font-weight: bold;
+}
