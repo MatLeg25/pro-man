@@ -104,7 +104,9 @@
     - Whenever any user makes a change to any board or its cards, ensure that other users with access to it get the refresh automatically, so they can immediately see the changes
 
 ## Home page:
-![proman](https://user-images.githubusercontent.com/70913892/133314234-95dc533f-9005-46be-a478-44475ef6107b.png)
+
+![proman](https://user-images.githubusercontent.com/70913892/133314433-7445d377-3c05-4c84-b574-76359992400d.png)
+
 
 
 
