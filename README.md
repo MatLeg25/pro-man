@@ -1,53 +1,7 @@
 # ProMan (sprint 1)
 
-## Story
+## The planning manager similar to Trello.
 
-### An email from the client
-
-```
-From: Mark Big <ceo@thepartner.com>
-
-Subject: Welcome on board for the ProMan project!
-
-In these days everyone wants to create a new project management tool,
-and we're no exception either. We'd like to implement
-something similar to Trello, so we can say we have our own tool!
-
-We call it: ProMan
-
-Jacob, our senior full-stack developer already started to work on the project.
-He made sure to have a proper backlog, and he started to work on the wireframe
-of the application.
-
-Unfortunately Jacob was late one day, he arrived to work at 9:02,
-so we had to fire him. Job starts at 9am, he had to learn it.
-
-Now it's your job to finish the project!
-Send us the sprint backlog ASAP, and we'll meet at the demo!
-
-Remember, we need completed user stories and quality work!
-
-Mark
-```
-
-Oh well, another nice client.
-
-From the attachments you see that they imagine the app as a "one pager" where all
-the boards are displayed, and when one is opened then the corresponding cards are shown.
-Their [screen plan](media/web-python/proman-screen-plan.png)
-is not too sophisticated but seems to be a good staring point.
-
-Of course, the customer would love to have an application which is easy to use at first
-glance, functionality is straightforward and looks nice on different screen sizes if possible.
-As this is [usually](media/web-python/specification-vs-reality.png) the case.
-Let's get this job done.
-
-## What are you going to learn?
-
-- create an advanced Flask project
-- practical usage of AJAX
-- mastering web development
-- planning the development of an advanced product
 
 ## Tasks
 
@@ -149,20 +103,11 @@ Let's get this job done.
 22. Allow the user to collaborate with other users in real-time
     - Whenever any user makes a change to any board or its cards, ensure that other users with access to it get the refresh automatically, so they can immediately see the changes
 
-## General requirements
 
-None
 
-## Hints
-
-None
-
-## Background materials
-
-- <i class="far fa-exclamation"></i> [Callbacks](project/curriculum/materials/pages/javascript/javascript-callbacks.md)
-- <i class="far fa-exclamation"></i> [API, AJAX](project/curriculum/materials/pages/web/the-last-missing-piece-api.md)
-- <i class="far fa-exclamation"></i> [RESTful](project/curriculum/materials/pages/web/restful.md)
-- [Pass by value vs by reference](project/curriculum/materials/pages/javascript/javascript-pass-by-value-vs-reference.md)
-- [Modules](project/curriculum/materials/pages/javascript/javascript-modules.md)
-- [Keyword this](project/curriculum/materials/pages/javascript/javascript-this.md)
-- [Tips & Tricks](project/curriculum/materials/pages/web/web-with-python-tips.md)
+## Technologies:
+- Flask
+- PostgreSQL
+- Jinja2
+- Bootstrap
+- JavaScript (AJAX)
